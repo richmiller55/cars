@@ -1,11 +1,10 @@
-// hello.cpp
+// first.cpp
 #include <iostream>
 
 using namespace std;
  
 int main() {
-  //   cout << "Hello, world!" << endl;
-  printf("hello world");
+  cout << "project to read beam data raw" << endl;
    return 0;
 }
 
