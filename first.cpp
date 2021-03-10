@@ -7,6 +7,7 @@ using namespace std;
 
 int readdata() {
   string str;
+  // comment to see if -u needed
   ifstream wheels ( "/home/ec2-user/data/batch001/Wheels.csv" );
   while (getline (wheels, str)) {
     cout << str << "\n";
